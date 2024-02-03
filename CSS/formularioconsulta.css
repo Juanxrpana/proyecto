@@ -1,0 +1,18 @@
+.formulario1 .content {
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.formulario1 .table,
+.formulario1 .form {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.formulario1 .table.active,
+.formulario1 .form.active {
+    height: auto;
+    opacity: 1;
+}

@@ -1,0 +1,174 @@
+.contador_texto {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: baseline;
+    text-size-adjust: 10px;
+}
+
+.myTabs {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-item {
+    width: 33%;
+    text-align: center;
+}
+
+#proveedor,
+#cantidad,
+#calidad {
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    padding: 10px 10px 10px 10px;
+}
+
+
+/*formulario*/
+
+.proveedor {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: rgb(36, 36, 36);
+    width: 100%;
+    text-align: center;
+}
+
+
+/*selector*/
+
+#proveedor {
+    position: relative;
+    border-radius: 6px;
+    border: #932828 3px solid;
+    width: 20em;
+    height: 3em;
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.proveedor2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+
+/* .icon-user-plus {
+    color: #ffff;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#nuevo_proveedor {
+    color: #ffff;
+    background: #2c8012;
+    border-radius: 15px;
+    text-align: center;
+}
+ */
+
+
+/* Cambiar el color del contenido de las pestañas */
+
+.botonera {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    flex-direction: row;
+}
+
+.calidad {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: -webkit-linear-gradient(to right, #962828, #6b3f3f);
+    background: linear-gradient(to right, #962828, #6b3f3f);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #fff;
+}
+
+.form div {
+    display: flex;
+    max-width: 28rem;
+    margin-top: 1rem;
+    column-gap: 0.5rem;
+}
+
+.form div input {
+    outline: none;
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    color: rgb(255 255 255);
+    padding: 0.5rem 0.875rem;
+    background-color: rgb(255 255 255 / 0.05);
+    border: 1px solid rgba(253, 253, 253, 0.363);
+    border-radius: 0.375rem;
+    flex: 1 1 auto;
+}
+
+.form div input::placeholder {
+    color: rgb(216, 212, 212);
+}
+
+.form div input:focus {
+    border: 1px solid grey;
+}
+
+.form div button {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.625rem 0.875rem;
+    background-color: rgb(241, 99, 99);
+    border-radius: 0.375rem;
+    border: none;
+    outline: none;
+}
+
+.cafe-input {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.cafe-input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+}
+
+.cafe-input:active {
+    transform: scale(0.95);
+}
+
+.cafe-input:focus {
+    border: 2px solid grey;
+}
